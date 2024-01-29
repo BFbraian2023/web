@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="señas de video.css">
+    <link rel="stylesheet" href="BFFotografia.css">
+    <title>Señas de video</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="BF Fotografia.html"><img src="LOGO/BF Fotografia.png" alt="Logo de la marca"></a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="Edición efectos.html">Edición efectos</a></li>              
+                <li><a href="Galeria.html">Galeria</a></li> 
+            </ul>
+        </nav>
+        <a class="btn" href="Quiero book.html"><button>Quiero Book</button></a>
+
+        <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="" class="close">&times;</a>
+            <div class="overlay-content">
+                <a href="BF Fotografia.html">Inicio</a>
+                <a href="Edición efectos.html">Edición efectos</a> 
+                <a href="Galeria.html">Galeria</a>
+                <a href="señas de video.html">Quiero señas aprender</a>
+                <a href="Quiero book.html">Quiero Book</a>
+            </div>
+        </div>
+        <script type="text/javascript" src="menu.js"></script>
+    </header>
+
+    <h3 class="heading"> Quiero señas aprender </h3>
+
+    <div class="container">
+        <div class="main-video">
+            <div class="video">
+                <video src="How To Create a Responsive Navbar Using HTML & CSS _ Step By Step Tutorial (1).mp4" controls muted autoplay></video>
+                <h3 class="title">Te viendo bien</h3>
+            </div>
+        </div>
+
+        <div class="video-list">
+            <div class="vid active">
+                <video src="1_a.mp4" muted></video>
+                <h3 class="title">1. Fácil</h3>
+            </div>
+            <div class="vid">
+                <video src="2_c.mp4" muted></video>
+                <h3 class="title">02. Fácil más o menos</h3>
+            </div>
+            <div class="vid">
+                <video src="4_b.mp4" muted></video>
+                <h3 class="title">03. Difícil</h3>
+            </div>
+            <div class="vid">
+                <video src="5_e.mp4" muted></video>
+                <h3 class="title">05. video title goes here</h3>
+            </div>
+            <div class="vid">
+                <video src="How To Create a Responsive Navbar Using HTML & CSS _ Step By Step Tutorial (1).mp4" muted></video>
+                <h3 class="title">01. video title goes here</h3>
+            </div>
+            <div class="vid">
+                <video src="How To Create a Responsive Navbar Using HTML & CSS _ Step By Step Tutorial (1).mp4" muted></video>
+                <h3 class="title">01. video title goes here</h3>
+            </div>
+            <div class="vid">
+                <video src="How To Create a Responsive Navbar Using HTML & CSS _ Step By Step Tutorial (1).mp4" muted></video>
+                <h3 class="title">01. video title goes here</h3>
+            </div>
+            <div class="vid">
+                <video src="How To Create a Responsive Navbar Using HTML & CSS _ Step By Step Tutorial (1).mp4" muted></video>
+                <h3 class="title">01. video title goes here</h3>
+            </div>
+            
+        </div>
+    </div>
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box-3">
+                <figure>
+                    <a href="#">
+                        <img src="LOGO/BF Fotografia.png" alt="Logo de SLee Dw">
+                    </a>
+                </figure>
+            </div>
+            <div class="box-3">
+                <h2>Bienvenidos BF Fotografia</h2>
+                <p>No te olvides seguime y darle like, por favor</p>
+            </div>
+            <div class="box-3">
+                <h2>SEGUIME :</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa-brands fa-tiktok">
+                    <a href="https://www.youtube.com/channel/UCaVzyBn_29FqxGQxDHtkYcg?sub_confirmation=1" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2024 <b>BF Fotografia</b></small>
+        </div>
+    </footer>
+    <div class="logos">
+        <div class="logos-slide">
+          <img src="medios de pago de logos/CuentaDNI.png">
+          <img src="medios de pago de logos/MercadoPago.png">
+          <img src="medios de pago de logos/CuentaDNI.png">
+          <img src="medios de pago de logos/MercadoPago.png">
+        </div>
+      </div>
+  
+      <script>
+        var copy = document.querySelector(".logos-slide").cloneNode(true);
+        document.querySelector(".logos").appendChild(copy);
+      </script>
+
+
+    <script src="Señas de video.js"></script>
+
+</body>
+</html>

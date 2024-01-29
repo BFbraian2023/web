@@ -1,0 +1,14 @@
+.FOTOMONTAJE {
+    background-image: url(FOTOMONTAJE/bruno.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    padding: 150px;
+}
+
+.niña {
+    width: 100%;
+}

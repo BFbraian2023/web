@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Galeria.css">
+    <link rel="stylesheet" href="lightbox.css">
+    <link rel="stylesheet" href="BFFotografia.css">
+    <title>Galeria</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="BF Fotografia.html"><img src="LOGO/BF Fotografia.png" alt="Logo de la marca"></a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="Galeria.html">Galeria</a></li>
+            </ul>
+        </nav>
+        <a class="btn" href="Quiero book.html"><button>Quiero Book</button></a>
+
+        <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="" class="close">&times;</a>
+            <div class="overlay-content">
+                <a href="BF Fotografia.html">Inicio</a>
+                <a href="Galeria.html">Galeria</a>
+                <a href="señas de video.html">Quiero señas aprender</a>
+                <a href="Quiero book.html">Quiero Book</a>
+            </div>
+        </div>
+        <script type="text/javascript" src="menu.js"></script>
+    </header>
+
+    <h1>Imagenes de Jineteada</h1>
+    <div class="galeria-2024">
+        <a href="1-fotos.html">16 de octubre de 2023 🐴</a>
+        <div>
+        </div>
+        <a href="2-fotos.html">21 de enero de 2024 🐴</a>
+        <h1>Imagenes de Egresado</h1>
+        <a href="3-fotos.html">15 de noviembre de 2023</a>
+    </div>
+
+
+
+    
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box-3">
+                <figure>
+                    <a href="#">
+                        <img src="LOGO/BF Fotografia.png" alt="Logo de SLee Dw">
+                    </a>
+                </figure>
+            </div>
+            <div class="box-3">
+                <h2>SOBRE NOSOTROS</h2>
+                <h2>Bienvenido BF Fotografia</h2>
+                <p>No te olvides siguenos y darle like, por favor</p>
+            </div>
+            <div class="box-3">
+                <h2>SIGUENOS :</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa-brands fa-tiktok">
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2024 <b>BF Fotografia</b></small>
+        </div>
+    </footer>
+
+    <div class="logos">
+        <div class="logos-slide">
+          <img src="medios de pago de logos/CuentaDNI.png">
+          <img src="medios de pago de logos/MercadoPago.png">
+          <img src="medios de pago de logos/CuentaDNI.png">
+          <img src="medios de pago de logos/MercadoPago.png">
+        </div>
+      </div>
+  
+      <script>
+        var copy = document.querySelector(".logos-slide").cloneNode(true);
+        document.querySelector(".logos").appendChild(copy);
+      </script>
+
+    <script src="lightbox-plus-jquery.min.js"></script>
+    <script type="text/javascript" src="menu.js"></script>
+</body>
+</html>

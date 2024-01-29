@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BFFotografia.css">
+    <link rel="stylesheet" href="Galeria.css">
+    <title>16 de octubre de 2023</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="BF Fotografia.html"><img src="LOGO/BF Fotografia.png" alt="Logo de la marca"></a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="Edición efectos.html">Edición efectos</a></li>             
+                <li><a href="Galeria.html">Galeria</a></li>
+            </ul>
+        </nav>
+        <a class="btn" href="Quiero book.html"><button>Quiero Book</button></a>
+
+        <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="" class="close">&times;</a>
+            <div class="overlay-content">
+                <a href="BF Fotografia.html">Inicio</a>
+                <a href="Edición efectos.html">Edición efectos</a>
+                <a href="Galeria.html">Galeria</a>
+                <a href="señas de video.html">Quiero señas aprender</a>
+                <a href="Quiero book.html">Quiero Book</a>
+            </div>
+        </div>
+        <script type="text/javascript" src="menu.js"></script>
+    </header>
+
+    <div class="container">
+        <div class="gallery">
+            <a href="Imagenes de Jineteada_1/1.jpg" data-lightbox="models" data-title="imagen1">
+                <img src="Imagenes de Jineteada_1/1.jpg" alt="">
+            </a>
+            <a href="Imagenes de Jineteada_1/2.jpg" data-lightbox="models" data-title="imagen2">
+                <img src="Imagenes de Jineteada_1/2.jpg"">
+            </a>
+            <a href="Imagenes de Jineteada_1/3.jpg" data-lightbox="models" data-title="imagen3">
+                <img src="Imagenes de Jineteada_1/3.jpg" alt="">
+            </a>
+            <a href="Imagenes de Jineteada_1/4.jpg" data-lightbox="models" data-title="imagen4">
+                <img src="Imagenes de Jineteada_1/4.jpg" alt="">
+            </a>
+            <a href="Imagenes de Jineteada_1/5.jpg" data-lightbox="models" data-title="imagen5">
+                <img src="Imagenes de Jineteada_1/5.jpg" alt="">
+            </a>
+            <a href="Imagenes de Jineteada_1/6.jpg" data-lightbox="models" data-title="imagen6">
+                <img src="Imagenes de Jineteada_1/6.jpg" alt="">
+            </a>
+            <a href="Imagenes de Jineteada_1/7.jpg" data-lightbox="models" data-title="imagen7">
+                <img src="Imagenes de Jineteada_1/7.jpg" alt="">
+            </a>
+            <a href="Imagenes de Jineteada_1/8.jpg" data-lightbox="models" data-title="imagen8">
+                <img src="Imagenes de Jineteada_1/8.jpg" alt="">
+            </a>
+        </a>
+        <a href="Imagenes de Jineteada_1/9.jpg" data-lightbox="models" data-title="imagen8">
+            <img src="Imagenes de Jineteada_1/9.jpg" alt="">
+        </a>
+    </a>
+    <a href="Imagenes de Jineteada_1/11.jpg" data-lightbox="models" data-title="imagen8">
+        <img src="Imagenes de Jineteada_1/11.jpg" alt="">
+    </a>
+</div>
+</div>
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box-3">
+                <figure>
+                    <a href="#">
+                        <img src="LOGO/BF Fotografia.png" alt="Logo de SLee Dw">
+                    </a>
+                </figure>
+            </div>
+            <div class="box-3">
+                <h2>Bienvenidos BF Fotografia</h2>
+                <p>No te olvides seguime y darle like, por favor</p>
+            </div>
+            <div class="box-3">
+                <h2>SEGUIME :</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa-brands fa-tiktok">
+                    <a href="https://www.youtube.com/channel/UCaVzyBn_29FqxGQxDHtkYcg?sub_confirmation=1" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>BF Fotografia</b></small>
+        </div>
+    </footer>
+    <div class="logos">
+        <div class="logos-slide">
+          <img src="medios de pago de logos/CuentaDNI.png">
+          <img src="medios de pago de logos/MercadoPago.png">
+          <img src="medios de pago de logos/CuentaDNI.png">
+          <img src="medios de pago de logos/MercadoPago.png">
+        </div>
+      </div>
+  
+      <script>
+        var copy = document.querySelector(".logos-slide").cloneNode(true);
+        document.querySelector(".logos").appendChild(copy);
+      </script>
+    
+</body>
+</html>
